@@ -36,9 +36,7 @@ class Library:
 
         # check whether if the year or page is number
         if self.is_valid_number(year) and self.is_valid_number(pages):
-#            book_info = f"{title},{author},{year},{pages}\n"
-#            self.file.write(book_info)
-#            print("Book is added successfully!")
+
 
             new_book_info = f"{title},{author},{year},{pages}"
 
